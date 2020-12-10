@@ -1,15 +1,10 @@
 import React, { StrictMode } from 'react'; 
 import ReactDOM from 'react-dom'; 
-
-const App = () => { 
-  return (
-    <h1>sdfsdf</h1>
-  ); 
-}; 
+import Counter from './components/Counter';
 
 ReactDOM.render( 
   <StrictMode> 
-    <App /> 
+    <Counter /> 
   </StrictMode>, 
   document.querySelector('#root'), 
 );
